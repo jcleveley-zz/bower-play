@@ -28,14 +28,21 @@ grunt bower:install
 
 Produces:
 ```
-vendor
+.
+├── Gruntfile.js
+├── README.md
+├── bower.json
 ├── js
-│   ├── imager.js
-│   │   └── Imager.min.js
-│   └── rum-event-client
-│       └── analytics_client.js
-└── lodash
-    └── lodash.compat.js
+│   └── vendor
+│       ├── imager.js
+│       │   ├── Imager.js
+│       │   └── Imager.min.js
+│       ├── lodash
+│       │   └── lodash.compat.js
+│       └── rum-event-client
+│           └── analytics_client.js
+└── package.json
 
-4 directories, 3 files
+5 directories, 8 files
+
 ```
