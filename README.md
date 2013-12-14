@@ -11,7 +11,7 @@
 - Support SemVer
 - Fetch via Git, Tar and maybe SVN
 - Fetch only files we need not the whole repo
-- Move files around to suite our project structure
+- Move files around to suit our project structure
 
 ## Option 1: Bower and Grunt
 
