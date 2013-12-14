@@ -1,0 +1,17 @@
+{
+  "name": "Bower-Play",
+  "dependencies": {
+    "rum-event-client": "git@github.com:BBC-Data/rum-event-client.git#~0.3.1",
+    "imager.js": "~0.1.0",
+    "lodash": "~2.4"
+
+  },
+  "exportsOverride": {
+    "rum-event-client": {
+      "js": "source/*.js"
+    },
+    "imager.js": {
+      "js": "dist/*.js"
+    }
+  }
+}

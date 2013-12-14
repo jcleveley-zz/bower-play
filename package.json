@@ -1,0 +1,9 @@
+{
+  "name": "bower-play",
+  "version": "1.0.0",
+  "dependencies": {
+    "grunt": "*",
+    "grunt-bower-task": "*",
+    "bower": "*"
+  }
+}
