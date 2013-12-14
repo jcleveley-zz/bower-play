@@ -4,13 +4,19 @@ module.exports = function(grunt) {
       bower: {
         install: {
             options: {
+                targetDir: '',
                 verbose: true,
-                targetDir: './vendor',
-                layout: 'byType',
-                install: true,
-                cleanTargetDir: true,
                 cleanBowerDir: true,
-                bowerOptions: {}
+                layout: function(type, component) {
+                    var path;
+                    if (type == 'css') {
+                        path = 'sass/partials/external';
+                    } else {
+                        path = 'js/vendor';
+                    }
+
+                    return path + '/' + component;
+                }
             }
         }
       }

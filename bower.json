@@ -9,9 +9,6 @@
   "exportsOverride": {
     "rum-event-client": {
       "js": "source/*.js"
-    },
-    "imager.js": {
-      "js": "dist/*.js"
     }
   }
 }
