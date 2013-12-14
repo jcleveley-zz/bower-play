@@ -23,7 +23,7 @@ npm install
 
 Run bower with grunt
 ```sh
-runt bower:install
+grunt bower:install
 ```
 
 Produces:
